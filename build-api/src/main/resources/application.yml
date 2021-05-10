@@ -1,0 +1,22 @@
+
+server:
+  port: 8001
+
+spring:
+  application:
+    name: build-api
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: admin
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
